@@ -1,5 +1,5 @@
 <template>
-  <tabbar>
+  <tabbar class="tabbar">
     <!-- 首页-->
     <tabbaritem path="/home" activeColor="blue">
       <template #item-icon>
@@ -65,4 +65,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.tabbar {
+  z-index: 10;
+}
+</style>
